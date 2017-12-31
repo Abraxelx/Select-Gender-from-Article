@@ -20,6 +20,7 @@ namespace Select_Gender_from_Article.MyClasses
         public main(String str)
         {
             gelen_Metin = str;
+
             CreateMatrix();
             Min_Max_Normalizasyon();
             methodResult2(GettingDistance());
